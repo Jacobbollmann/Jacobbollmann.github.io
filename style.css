@@ -1,1 +1,93 @@
+ *{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing; border-box;
+}
+
+body{
+  background: black;
+  font-size 14px;
+  line-height 20px;
+}
+
+.container{
+  display: flex;
+  width: 800px;
+  margin: 50px auto;
+  background: white;
+}
+
+.container .left-column{
+  background: lightgrey;
+  border-radius: 5px;
+  width: 35%;
+  padding: 10px 5px 10px 5px;
+}
+
+.container .left-colum, .contact, .experience, .education{
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.container .left-column .education{
+  border-bottom: 0;
+}
+
+.container .left-column .education h6{
+  padding-bottom: 10px;
+  font-size: 20px;
+  
+}
+
+.container .left-column .education p{
+  padding-bottom: 6px;
+}
+
+.container .right-column{
+ width: 65%;
+ margin: 0px 10px 10px 10px;
+}
+
+.container .right-column ul{
+  margin-left: 40px;
+}
+
+.container .right-column .header{
+  padding: 18px 10px 18px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.container .right-column .header .name{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.container .right-column .header .title{
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 14px;
+  font-weight: 100
+}
+
+.container .right-column .work .job{
+  font-weight: 700;
+  font-size: 16px;
+  margin: 10px 0px 5px 0px;
+  text-decoration: underline;
+}
+
+.container .right-column .work .date{
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+
+
 
